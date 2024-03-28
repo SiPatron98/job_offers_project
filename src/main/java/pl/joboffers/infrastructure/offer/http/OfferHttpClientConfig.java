@@ -10,7 +10,7 @@ import pl.joboffers.domain.offer.OfferFetchable;
 import java.time.Duration;
 
 @Configuration
-public class RandomGeneratorClientConfig {
+public class OfferHttpClientConfig {
 
     @Bean
     public RestTemplateResponseErrorHandler restTemplateResponseErrorHandler() {
